@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? family= Fraunces:opsz,wght@9..144,700 & family= Kumbh+Sans:wght@400;700 & family= Montserrat:wght @500;700 & family= Outfit:wght@300;400;600 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family : 'Outfit', sans-serif;
+}
+.card{
+    height: 650px;
+    width: 350px;
+    border-radius: 0.5rem;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.5rem;
+}
+.card-main{
+    height: 50%;
+    
+}
+
+.card-main img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.card-body{
+
+}
+
+.card-title{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-paragraph{
+    color:  hsl(215, 51%, 70%);
+}
+
+
+.card-center{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-price{
+    width: 50%;
+    display: flex;
+}
+
+.card-days{
+    display: flex;
+    width: 50%;
+}
+
+.price-container{
+    margin-left: 0.5rem;
+    color: hsl(178, 100%, 50%) ;
+
+}
+
+.days-container{
+    color:  hsl(215, 51%, 70%);
+    margin-left: 0.5rem;
+}
+
+
+.navbar{
+    border: 1px solid gray;
+    margin-top: 2rem;
+    
+    
+}
+
+.footer-foot{
+    height: 80px;
+    margin-top: 2rem;
+    display: flex;
+    
+}
+.footer-left{
+    width:55px;
+    
+
+}
+
+.footer-center{
+    width: 88px;
+    display: flex;
+}
+
+.footer-right{
+   
+    
+
+}
+
+.footer-left-img-container img{
+    width: 70%;
+}
+
+.left-name{
+    
+    
+    margin-top: 1.5rem;
+    
+    
+    color: hsl(215, 51%, 70%) ;
+}
+
+
+.footer-pre{
+    color: white ;
+    margin-top: 1.5rem;
+}
+
+.footer-left-img-container{
+    margin-top: 1rem;
+
+
+}
+   
